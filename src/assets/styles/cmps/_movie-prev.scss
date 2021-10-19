@@ -1,0 +1,19 @@
+
+.movie-prev{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-block-end: 10px;
+    &:hover{
+        cursor: pointer;
+        text-shadow: 2px 1px 2px $clr3;
+        transition: 0.5s;
+        color: $clr1;
+    }
+
+    >*{
+        margin-inline-end: 10px;
+    }
+}
