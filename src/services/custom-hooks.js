@@ -8,10 +8,7 @@ export const useCheckInArr = (entity, arr) => {
 
     const checkArr = (id) => {
         try{
-
-            if (!entity || !id) return
-            const isExsist = arr.some(entity => entity._id === id)
-            setIsFav(isExsist)
+            setIsFav(arr.some(entity => entity._id === id))
         } catch (err){
             console.error('HAD A PROBLEM\n', err)
         }
