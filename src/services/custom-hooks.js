@@ -7,8 +7,9 @@ export const useCheckInArr = (entity, arr) => {
     const [isInArr, setIsFav] = useState(false)
 
     const checkArr = (id) => {
-        if (!id) return
-        setIsFav(arr.some(entity => entity._id === id))
+        // if (!id) return
+        const isExsist = arr.some(entity => entity._id === id)
+        setIsFav(isExsist)
     }
 // CHECK EVREY TIME THE ARRAY OR ENTITY CHANGE
     useEffect(() => {
