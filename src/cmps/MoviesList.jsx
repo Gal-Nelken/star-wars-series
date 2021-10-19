@@ -22,13 +22,14 @@ export const MoviesList = ({ movies, onSetMovie, favMovies }) => {
                     movie={movie}
                     onSetMovie={onSetMovie}
                     favMovies={favMovies}
+                    onSetRate={setRate}
                 />
             )}
 
             {/* SLIDE BTN FOR MOBILES */}
             {rate === 0 ?
                 // IF MENU IS OPEN
-                <button className='slide-btn' onClick={() => setRate(-220)}>
+                <button className='slide-btn' onClick={() => setRate(-225)}>
                     <span className='slide-btn-txt'>Close</span>
                     {'<'}
                     <span className='slide-btn-txt'>Menu</span>

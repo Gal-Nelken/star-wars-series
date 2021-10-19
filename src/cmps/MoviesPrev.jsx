@@ -5,15 +5,21 @@ import { FaGrinHearts } from 'react-icons/fa'
 import { useCheckInArr } from '../services/custom-hooks';
 
 
-export const MoviesPrev = ({ movie, onSetMovie, favMovies }) => {
+export const MoviesPrev = ({ movie, onSetMovie, favMovies, onSetRate }) => {
     // CHECK IF THE MOVIE IS IN FAVORITES
     const isFav = useCheckInArr(movie, favMovies)
+
+// ON CLICKING A MOVIE CLOSES MODAL AND DISPLAY MOVIE
+    const onSelectMovie = () => {
+        onSetMovie(movie)
+        onSetRate(-225)
+    }
 
     return (
         // MOVIE LINE
         <li
             className='movie-prev'
-            onClick={() => onSetMovie(movie)}
+            onClick={() => onSelectMovie()}
         >
             {/* MOVIE TITLE */}
             <h4 className='prev-title'>
