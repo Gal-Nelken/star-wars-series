@@ -32,7 +32,6 @@ async function removeFav(movieId) {
 
 //  --- ADD TO FAVORITES ---
 async function addFav(movie) {
-    console.log('ADD IT!!')
     return await asyncStorageService.put(KEY2, movie)
 }
 
