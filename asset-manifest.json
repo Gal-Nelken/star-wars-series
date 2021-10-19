@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/star-wars-series/static/css/main.c5eaf4ef.chunk.css",
-    "main.js": "/star-wars-series/static/js/main.38e6f51b.chunk.js",
-    "main.js.map": "/star-wars-series/static/js/main.38e6f51b.chunk.js.map",
+    "main.css": "/star-wars-series/static/css/main.dd3ce7f1.chunk.css",
+    "main.js": "/star-wars-series/static/js/main.84fb39d8.chunk.js",
+    "main.js.map": "/star-wars-series/static/js/main.84fb39d8.chunk.js.map",
     "runtime-main.js": "/star-wars-series/static/js/runtime-main.e3cc8b2f.js",
     "runtime-main.js.map": "/star-wars-series/static/js/runtime-main.e3cc8b2f.js.map",
     "static/js/2.3e961366.chunk.js": "/star-wars-series/static/js/2.3e961366.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.24033856.chunk.js": "/star-wars-series/static/js/3.24033856.chunk.js",
     "static/js/3.24033856.chunk.js.map": "/star-wars-series/static/js/3.24033856.chunk.js.map",
     "index.html": "/star-wars-series/index.html",
-    "static/css/main.c5eaf4ef.chunk.css.map": "/star-wars-series/static/css/main.c5eaf4ef.chunk.css.map",
+    "static/css/main.dd3ce7f1.chunk.css.map": "/star-wars-series/static/css/main.dd3ce7f1.chunk.css.map",
     "static/js/2.3e961366.chunk.js.LICENSE.txt": "/star-wars-series/static/js/2.3e961366.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/star-wars-series/static/media/Poppins-Thin.a61eaf4c.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.e3cc8b2f.js",
     "static/js/2.3e961366.chunk.js",
-    "static/css/main.c5eaf4ef.chunk.css",
-    "static/js/main.38e6f51b.chunk.js"
+    "static/css/main.dd3ce7f1.chunk.css",
+    "static/js/main.84fb39d8.chunk.js"
   ]
 }
